@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_presenter"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Presenter" />
+        <item
+            android:id="@+id/nav_viewer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Viewer" />
+        <item
+            android:id="@+id/nav_vod_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vod List" />
+        <item
+            android:id="@+id/nav_token"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Wallet" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
