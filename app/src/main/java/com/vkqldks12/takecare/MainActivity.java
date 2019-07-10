@@ -59,8 +59,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         loginid.setText(sp_username);
         nickname.setText(sp_nickname);
 
-        //깃 테스트
-
     }
 
     @Override
