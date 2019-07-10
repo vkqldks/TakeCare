@@ -20,6 +20,14 @@
             android:id="@+id/nav_token"
             android:icon="@drawable/ic_menu_share"
             android:title="Wallet" />
+        <item
+            android:id="@+id/heartBit"
+            android:icon="@drawable/baseline_favorite_border_black_18dp"
+            android:title="CheckHeart"/>
+        <item
+            android:id="@+id/dust"
+            android:title="CheckDust"
+            android:icon="@drawable/baseline_insert_emoticon_black_18dp"/>
     </group>
 
     <item android:title="Communicate">

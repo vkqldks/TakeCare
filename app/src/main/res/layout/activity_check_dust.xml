@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vkqldks12.takecare.CheckDust">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/bluetooth"
+            android:id="@+id/connect"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/dust_status_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress"
+            android:layout_marginBottom="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:arc_bottom_text="PM25"
+            app:arc_text_size = "20sp"
+            app:arc_text_color = "#2552e4"
+            app:arc_suffix_text = "㎍/㎥"
+            app:arc_suffix_text_size="10sp"
+            app:arc_unfinished_color = "#FFA39C9C"
+            app:arc_finished_color = "#FFA39C9C"/>
+
+        <TextView
+            android:id="@+id/dust_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="블루투스 연결해 주세요!!"
+            android:gravity="center"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/explainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -77,6 +77,11 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.3.1'
 
+    implementation 'com.akexorcist:bluetoothspp:1.0.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+
+    implementation 'com.github.lzyzsd:circleprogress:1.2.1'
+
     implementation 'com.android.support:multidex:1.0.3'
 
 }

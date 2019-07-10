@@ -29,7 +29,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.vkqldks12.takecare.Splash.splash"
+            android:name=".Splash.splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,15 +39,18 @@
         </activity>
         <!-- <activity android:name=".main.MainActivity_" /> -->
         <activity
-            android:name="com.vkqldks12.takecare.broadcaster.BroadCasterActivity_"
+            android:name=".broadcaster.BroadCasterActivity_"
             android:screenOrientation="portrait" />
-            android:name="com.vkqldks12.takecare.viewer.ViewerActivity_"
-            android:screenOrientation="portrait" />
-        <activity android:name="com.vkqldks12.takecare.Login_and_Logout.login" />
-        <activity android:name="com.vkqldks12.takecare.MainActivity" />
-        <activity android:name="com.vkqldks12.takecare.VOD.vod_list" />
-        <activity android:name="com.vkqldks12.takecare.VOD.vod_play" />
-        <activity android:name="com.vkqldks12.takecare.Ethereum_Token.TokenActivity"></activity>
+        android:name="com.vkqldks12.takecare.viewer.ViewerActivity_"
+        android:screenOrientation="portrait" />
+        <activity android:name=".Login_and_Logout.login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".VOD.vod_list" />
+        <activity android:name=".VOD.vod_play" />
+        <activity android:name=".Ethereum_Token.TokenActivity" />
+        <activity android:name=".HeartBits.HeartBits" />
+        <activity android:name=".CheckDust" />
+        <activity android:name=".HeartBits.HeartBits_detail"></activity>
     </application>
 
 </manifest>

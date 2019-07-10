@@ -23,4 +23,17 @@ public interface Api {
     Call<ResponseBody> vod_chat_list(
             @Field("username") String username
     );
+
+    @FormUrlEncoded
+    @POST("save_heart.php")
+    Call<ResponseBody> save_heart(
+            @Field("username") String username,
+            @Field("user_heart") String heart_bits
+    );
+
+    @FormUrlEncoded
+    @POST("receive_heart.php")
+    Call<ResponseBody> receive_heart(
+            @Field("username") String userid
+    );
 }

@@ -28,6 +28,13 @@ public class RetrofitClient {
         return mInstance;
     }
 
+    public static synchronized RetrofitClient getMinstance(){
+        if (mInstance == null){
+            mInstance = new RetrofitClient();
+        }
+        return mInstance;
+    }
+
     public Api getApi(){
         return retrofit.create(Api.class);
     }
