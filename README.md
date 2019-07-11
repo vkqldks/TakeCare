@@ -1,4 +1,3 @@
-``
 ## Takecare
 
 독거노인, 노약자 대상 CCTV 어플리케이션
@@ -7,11 +6,11 @@
 
 1. 실시간 스트리밍 : WebRTC 프로토콜을 이용한 1:N 스트리밍 기능
 
-![RealTimeStreaming](./githubImages/RealTimeStreaming.jpg)
+![RealTimeStreaming](./githubImages/RealTimeStreaming.jpg) ![PlayVOD](./githubImages/PlayVod.jpg)
 
 2. VOD 재생 : HLS 프로토콜, EXOplayer 라이브러리를 이용해서 녹화된 영상을 재생
 
-![PlayVOD](./githubImages/PlayVod.jpg)
+
 
 
 
