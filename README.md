@@ -8,7 +8,11 @@
 <img src = './githubImages/HeartBit_play.jpg' width='250' height='400'/>  <img src = './githubImages/Heartbit_wave.jpg' width='250' height='400'/>
 
 2. 미세먼지 측정 : 실내 미세먼지 측정 후 현재 상태 확인
-<img src = './githubImages/CheckDust_arduino.jpg' width='200' height='400'/> <img src = './githubImages/CheckDust_good.jpg' width='200' height='400'/>  <img src = './githubImages/CheckDust_notgood.jpg' width='200' height='400'/>
+<p float="left">
+    <img src = './githubImages/CheckDust_arduino.jpg' width='200' height='400'/>
+    <img src = './githubImages/CheckDust_good.jpg' width='200' height='400'/>  
+    <img src = './githubImages/CheckDust_notgood.jpg' width='200' height='400'/>
+</p>
 
 3. 실시간 스트리밍 : WebRTC 프로토콜을 이용한 1:N 스트리밍
 <img src = './githubImages/RealTimeStreaming.jpg' width='250' height='400'/>
@@ -17,7 +21,7 @@
 <img src = './githubImages/PlayVod.jpg' width='250' height='400'/>
 
 5. 이더리움 기반 토큰전송 : 이더리움 기반(ERC-20) 자체 토큰을 발행 사용자들끼리 거래 가능
-<img src = './githubImages/Ethereum.jpg' width='250' height='400'/>     <img src = './githubImages/EtherScan.jpg' width='250' height='400'/>
+<img src = './githubImages/Ethereum.jpg' width='250' height='400'/>     <img src = './githubImages/EtherScan.jpg' width='350' height='400'/>
 
 
 
