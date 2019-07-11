@@ -32,14 +32,12 @@ import java.util.LinkedList;
 
 import static android.content.ContentValues.TAG;
 
-/**
- * Created by nhancao on 7/20/17.
- */
+
 
 public class ViewerPresenter extends MvpBasePresenter<ViewerView>
         implements SignalingEvents, PeerConnectionClient.PeerConnectionEvents {
 
-    private static final String STREAM_HOST = "wss://13.209.201.195:8443/one2many";
+    private static final String STREAM_HOST = "wss://**.***.***.***:8443/one2many";
 
     private Application application;
     private SocketService socketService;

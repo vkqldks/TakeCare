@@ -46,7 +46,6 @@ public class vod_list extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences("userData", Context.MODE_PRIVATE);
         String val = sharedPreferences.getString("userName","");
-        Log.d("TAG", "유저이름은?"+val);
 
         swipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.vod_refresh);
         recyclerView = (RecyclerView)findViewById(R.id.vod_recycler_view);
@@ -95,7 +94,7 @@ public class vod_list extends AppCompatActivity {
 
                 try {
                     String s = response.body().string();
-                    Log.e("아이디로 vod리스트 받아오기", s); // {"success":true} 로그인 성공하면 이렇게 나옴
+                    // {"success":true} 로그인 성공하면 이렇게 나옴
                     JSONArray jsonArray = new JSONArray(s);
 
                     if (s !=null) { //받아오기 성공시
@@ -106,7 +105,6 @@ public class vod_list extends AppCompatActivity {
                             username = jsonObject.getString("username");
                             vod_name = jsonObject.getString("vod_name");
                             vodID = jsonObject.getString("vodid");
-                            Log.d("TAG", "받아온 유저 이름과 vod 이름"+username+vod_name+vodID);
 
                             vodListinfo = new vod_listinfo();
                             vodListinfo.setVod_name(vod_name);

@@ -49,7 +49,7 @@ public class SendingToken {
         @Override
         protected TransactionReceipt doInBackground(String... value) {
             BigInteger amount = BigInteger.valueOf(Long.parseLong(value[2]));
-            Log.d("BBBBBBB","스마트 컨트랙트로 넘어가는 값은 어떻게 나타나는가:::::"+amount);
+            Log.d("TAG","스마트 컨트랙트로 넘어가는 값은 어떻게 나타나는가:::::"+amount);
 
             System.out.println(getGasPrice());
             System.out.println(getGasLimit());

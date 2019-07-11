@@ -6,10 +6,6 @@ import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by nhancao on 7/20/17.
- */
-
 public class RxScheduler {
 
     /**

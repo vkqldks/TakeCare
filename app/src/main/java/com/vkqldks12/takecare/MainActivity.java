@@ -18,9 +18,12 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.vkqldks12.takecare.Ethereum_Token.TokenActivity;
+import com.vkqldks12.takecare.HeartBits.HeartBits;
 import com.vkqldks12.takecare.VOD.vod_list;
 import com.vkqldks12.takecare.broadcaster.BroadCasterActivity_;
 import com.vkqldks12.takecare.viewer.ViewerActivity_;
+
+import jnr.ffi.annotations.In;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -79,6 +82,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             sharedPreferences = getSharedPreferences("CurrentWallet", Context.MODE_PRIVATE);
             Intent intent = new Intent(MainActivity.this, TokenActivity.class);
                 startActivity(intent);
+        }else if (id == R.id.nav_heartBit){
+            Intent intent = new Intent(MainActivity.this, HeartBits.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_dust){
+            Intent intent = new Intent(MainActivity.this, CheckDust.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout)findViewById(R.id.drawer_layout);

@@ -56,7 +56,7 @@ public class vod_list_adapter extends RecyclerView.Adapter<vod_list_adapter.MyVi
         String transTime = format.format(new Date(name));
 
 
-        String vod_image = "http://13.209.201.195/vod/"+vodListInfo.get(position).getVod_name()+".png";
+        String vod_image = "http://**.***.***.***/vod/"+vodListInfo.get(position).getVod_name()+".png";
 
         holder.login_id.setText(login);
         holder.vod_Name.setText(transTime);

@@ -57,7 +57,7 @@ public class vod_play extends AppCompatActivity {
     final private String TAG = "VOD_PlayerActivity";
 
     //Hls
-    final private String video_url = "http://13.209.201.195/vod/";
+    final private String video_url = "http://**.***.***.***/vod/";
 
     int position; //vod 클릭 시 vod_list_adapter를 통해 클릭한 아이템의 포지션 값
     String vodName; //vod 클릭 시 vod_list_adapter를 통해 클릭한 아이템의 이름
@@ -89,10 +89,7 @@ public class vod_play extends AppCompatActivity {
         position = intent.getIntExtra("position",0);
         vodName = intent.getStringExtra("vod_name");
         vodID = intent.getStringExtra("vod_ID");
-        Log.d(TAG, "인텐트를 통해 넘어온 vod 이름"+vodName);
-        Log.d(TAG, "인텐트를 통해 넘어온 vod 넘버값::"+vodID);
         Real_Vod_Name = vodName+".m3u8";
-        Log.d(TAG, "제목 뒤에 파일 확장자를 넣고 싶은데 제대로 되려나..."+Real_Vod_Name);
 
 
         //ExoPlayer implementation
@@ -122,8 +119,6 @@ public class vod_play extends AppCompatActivity {
 
         //Set the media source , 인텐트로 클릭한 vod의 제목을 받아온 후 기존 url뒤에 연결시켜줘야한다.
         Uri mp4VideoUri = Uri.parse(video_url+Real_Vod_Name);
-
-        Log.d(TAG, "mp4 주소 어떤식으로 찍히려나"+mp4VideoUri);
 
         //Measures bandwidth during playback. Can be null if not required
         DefaultBandwidthMeter bandwidthMeterA = new DefaultBandwidthMeter();
@@ -173,7 +168,6 @@ public class vod_play extends AppCompatActivity {
             public void onResponse(retrofit2.Call<ResponseBody> call, Response<ResponseBody> response) {
                 try {
                     String s = response.body().string();
-                    Log.e("vod 넘버값으로 채팅 메세지 받아오기",s);
 
                     JSONArray jsonArray = new JSONArray(s);
 
@@ -187,15 +181,12 @@ public class vod_play extends AppCompatActivity {
                             MSGTime = jsonObject.getInt("message_time");
                             nickName = jsonObject.getString("nick_name");
 
-                            Log.d("TAG","서버에서 받아온 채팅 메세지 ::"+msg+"아이디 ::"+userName+"메세지 타임 ::"+MSGTime);
-
                             vodMessageinfoList.add(new vod_messageinfo(
                                     msg,
                                     userName,
                                     MSGTime,
                                     nickName
                             ));
-                            Log.d("TAG","최종적으로 담긴 전체 채팅 메세지 ::"+vodMessageinfoList.get(i).getMessage());
                         }
                     }
                     else { //채팅 메세지 받아오기 실패시
@@ -227,11 +218,8 @@ public class vod_play extends AppCompatActivity {
                     long times = player.getCurrentPosition();
                     times = (long)Math.round(times/100)*100;
 
-                    Log.d("TAG", "현재 재생 타임은?? ::"+times);
-
                     for (vod_messageinfo List : vodMessageinfoList){
                         if (List.getChat_time() == times){
-                            Log.d("TAG","여기서 타임은?? ::"+List.getChat_time());
                             chatMessageList.add(List);
                         }
                     }

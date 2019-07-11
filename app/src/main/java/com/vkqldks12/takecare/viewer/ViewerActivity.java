@@ -33,9 +33,6 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by nhancao on 7/20/17.
- */
 @EActivity(com.vkqldks12.takecare.R.layout.activity_viewer)
 public class ViewerActivity extends MvpActivity<ViewerView, ViewerPresenter> implements ViewerView {
     private static final String TAG = ViewerActivity.class.getSimpleName();
@@ -53,7 +50,7 @@ public class ViewerActivity extends MvpActivity<ViewerView, ViewerPresenter> imp
     android.os.Handler handler;
     String data;
     SocketChannel socketChannel;
-    private static final String HOST = "13.209.201.195";
+    private static final String HOST = "**.***.***.***";
     private static final int PORT = 5001;
 
     EditText Viewer_messege;
@@ -108,7 +105,7 @@ public class ViewerActivity extends MvpActivity<ViewerView, ViewerPresenter> imp
                 new SendmsgTask().execute(viewerInfo);
 
             } catch (Exception ioe) {
-                Log.d("asd", ioe.getMessage() + "a");
+                Log.d("TAG", ioe.getMessage() + "::");
                 ioe.printStackTrace();
 
             }

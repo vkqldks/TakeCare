@@ -37,7 +37,7 @@ public class BroadCasterPresenter extends MvpBasePresenter<BroadCasterView>
         implements SignalingEvents, PeerConnectionClient.PeerConnectionEvents {
     private static final String TAG = BroadCasterPresenter.class.getSimpleName();
 
-    private static final String STREAM_HOST = "wss://13.209.201.195:8443/one2many";
+    private static final String STREAM_HOST = "wss://**.***.***.***:8443/one2many";
 
     private Application application;
     private SocketService socketService;

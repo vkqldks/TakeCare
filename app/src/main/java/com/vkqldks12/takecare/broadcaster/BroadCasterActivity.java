@@ -42,9 +42,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by nhancao on 7/20/17.
- */
+
 @EActivity(com.vkqldks12.takecare.R.layout.activity_broadcaster)
 public class BroadCasterActivity extends MvpActivity<BroadCasterView, BroadCasterPresenter>
         implements BroadCasterView, NPermission.OnPermissionResult {
@@ -65,7 +63,7 @@ public class BroadCasterActivity extends MvpActivity<BroadCasterView, BroadCaste
     Handler handler;
     String data;
     SocketChannel socketChannel;
-    private static final String Host ="13.209.201.195";
+    private static final String Host ="**.***.***.***";
     private static final int Port = 5001;
 
     EditText presenter_messege;
@@ -80,7 +78,6 @@ public class BroadCasterActivity extends MvpActivity<BroadCasterView, BroadCaste
         android.content.SharedPreferences shp = getSharedPreferences("userData", Context.MODE_PRIVATE);
         userName = shp.getString("userName","");
         userEmail = shp.getString("userEmail","");
-        Log.d("TAG","유저네임 제대로 찍히나?"+userName+userEmail);
 
         nPermission = new NPermission(true);
 

@@ -32,14 +32,12 @@ public class login extends AppCompatActivity {
             public void onClick(View view) {
                 final String username=nameText.getText().toString();
                 final String useremail=emailText.getText().toString();
-                Log.d("TAG","유저이름과이메일주소"+username+useremail);
 
                 sharedPreferences=getSharedPreferences("userData", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor=sharedPreferences.edit();
                 editor.putString("userName",username);
                 editor.putString("userEmail",useremail);
                 editor.apply();
-                Log.d("TAG","쉐어드에저장된데이터"+sharedPreferences);
 
                 Intent intent=new Intent(login.this,MainActivity.class);
                 startActivity(intent);
