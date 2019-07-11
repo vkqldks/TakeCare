@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17506649-b6ff-402b-b874-7d7469008f85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/githubImages/CheckDust_arduino.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/githubImages/CheckDust_good.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/githubImages/CheckDust_notgood.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -35,19 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_heart_bits.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_heart_bits.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_heart_bits_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_heart_bits_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,8 +141,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="211" lean-forward="false" selection-start-line="10" selection-start-column="211" selection-end-line="10" selection-end-column="211" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -2558,7 +2542,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847723027" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847946146" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2606,7 +2590,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847723027" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847946146" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2802,7 +2786,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847723028" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562847946147" />
       </method>
     </configuration>
     <list size="1">
@@ -2887,7 +2871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562846901596</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Readme Contents">
+      <created>1562847751285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562847751285</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2937,7 +2928,8 @@
     <MESSAGE value="Add function description &amp;&amp; images size" />
     <MESSAGE value="Add function description &amp;&amp; images resize" />
     <MESSAGE value="images resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="images resize" />
+    <MESSAGE value="Add Readme Contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Readme Contents" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3238,11 +3230,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/githubImages/Heartbit_wave.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="211" lean-forward="false" selection-start-line="10" selection-start-column="211" selection-end-line="10" selection-end-column="211" />
             <folding />
           </first_editor>
           <second_editor />
