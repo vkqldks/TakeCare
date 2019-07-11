@@ -154,8 +154,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="230">
-                <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="126" lean-forward="false" selection-start-line="7" selection-start-column="126" selection-end-line="7" selection-end-column="126" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -2554,7 +2554,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846708112" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846892014" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2602,7 +2602,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846708112" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846892014" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2798,7 +2798,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846708113" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1562846892014" />
       </method>
     </configuration>
     <list size="1">
@@ -2869,7 +2869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562846270660</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add function description &amp;&amp; images resize">
+      <created>1562846715791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562846715791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2917,7 +2924,8 @@
     <MESSAGE value="Add function description &amp;&amp; images" />
     <MESSAGE value="Add function description &amp;&amp; images line" />
     <MESSAGE value="Add function description &amp;&amp; images size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add function description &amp;&amp; images size" />
+    <MESSAGE value="Add function description &amp;&amp; images resize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function description &amp;&amp; images resize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3221,8 +3229,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="126" lean-forward="false" selection-start-line="7" selection-start-column="126" selection-end-line="7" selection-end-column="126" />
             <folding />
           </first_editor>
           <second_editor />
